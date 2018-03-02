@@ -70,7 +70,7 @@
     <!-- Use the following keys if you want to use Web / Installed application
          OAuth flow.-->
 
-    <add key="OAuth2Mode" value="APPLICATION"/>
+    <add key="OAuth2Mode" value="SERVICE_ACCOUNT"/>
     <!-- If you have only a single account, then you can run
          OAuth2TokenGenerator.cs to generate a RefreshToken for that account and
          set this key in your application's App.config / Web.config. If you are

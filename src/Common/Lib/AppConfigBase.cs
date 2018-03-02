@@ -139,7 +139,7 @@ namespace Google.Api.Ads.Common.Lib {
     /// OAuth2 mode.
     /// </summary>
     private ConfigSetting<OAuth2Flow> oAuth2Mode = new ConfigSetting<OAuth2Flow>("OAuth2Mode",
-        OAuth2Flow.APPLICATION);
+        OAuth2Flow.SERVICE_ACCOUNT);
 
     /// <summary>
     /// True, if the usage of a feature should be added to the user agent,
